@@ -1,0 +1,24 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "My First API",
+        "version": "0.1"
+    },
+    "paths": {
+        "/profile": {
+            "get": {
+                "tags": [
+                    "About Me"
+                ],
+                "summary": "Get profile",
+                "description": "Desctiption about me",
+                "operationId": "profile",
+                "responses": {
+                    "200": {
+                        "description": "successful operation"
+                    }
+                }
+            }
+        }
+    }
+}
